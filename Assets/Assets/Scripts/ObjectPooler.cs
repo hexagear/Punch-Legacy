@@ -6,7 +6,7 @@ public class ObjectPooler : MonoBehaviour
 {
 
     public GameObject pooledObject;
-    public GameObject platforms;
+    public GameObject parent;
     public int pooledAmount;
     private float speed;
     private LevelMover mover;
@@ -23,8 +23,8 @@ public class ObjectPooler : MonoBehaviour
 
         for (int i = 0; i < pooledAmount; i++)
         {            
-            GameObject obj = (GameObject)Instantiate(pooledObject, platforms.transform);
-            obj.transform.parent = platforms.transform;
+            GameObject obj = (GameObject)Instantiate(pooledObject, parent.transform);
+            obj.transform.parent = parent.transform;
             obj.SetActive(false);
             objectsList.Add(obj);
             mover.rigidbodyList.Add(obj.GetComponent<Rigidbody2D>());
@@ -42,8 +42,8 @@ public class ObjectPooler : MonoBehaviour
             }
         }
 
-        GameObject obj = (GameObject)Instantiate(pooledObject, platforms.transform);
-        obj.transform.parent = platforms.transform;
+        GameObject obj = (GameObject)Instantiate(pooledObject, parent.transform);
+        obj.transform.parent = parent.transform;
         obj.SetActive(false);
         objectsList.Add(obj);
         mover.rigidbodyList.Add(obj.GetComponent<Rigidbody2D>());

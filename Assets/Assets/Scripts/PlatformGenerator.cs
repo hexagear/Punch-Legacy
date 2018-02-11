@@ -4,10 +4,10 @@ using UnityEngine;
 
 public class PlatformGenerator : MonoBehaviour {
 
-    public GameObject thePlatform;
+    //public GameObject thePlatform;
     public Transform generationPoint;
     private float distanceBetween;
-    private float platformWidth;
+    private float platformWidth;    
 
     public float distanceBetweenMax;
     public float distanceBetweenMin;
@@ -16,7 +16,8 @@ public class PlatformGenerator : MonoBehaviour {
 
     // Use this for initialization
     void Start () {
-        platformWidth = thePlatform.GetComponent<BoxCollider2D>().size.x;
+        ObjectPooler pooler = GetComponent<ObjectPooler>();
+        platformWidth = pooler.pooledObject.GetComponent<BoxCollider2D>().size.x;
 	}
 	
 	// Update is called once per frame
