@@ -1,9 +1,68 @@
 fileFormatVersion: 2
-guid: 6f4d99a2ac256d44dbfc465bb7cb799a
-timeCreated: 1518336659
+guid: d63d69c5eadd01347850fc9bdbe970a3
+timeCreated: 1518376214
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: Enemy_alien_0
+    21300002: Enemy_alien_1
+    21300004: Enemy_alien_2
+    21300006: Enemy_alien_3
+    21300008: Enemy_alien_4
+    21300010: Enemy_alien_5
+    21300012: Enemy_alien_6
+    21300014: Enemy_alien_7
+    21300016: Enemy_alien_idle
+    21300018: Enemy_alien_9
+    21300020: Enemy_alien_10
+    21300022: Enemy_alien_11
+    21300024: Enemy_alien_12
+    21300026: Enemy_alien_13
+    21300028: Enemy_alien_14
+    21300030: Enemy_alien_15
+    21300032: Enemy_alien_16
+    21300034: Enemy_alien_17
+    21300036: Enemy_alien_18
+    21300038: Enemy_alien_19
+    21300040: Enemy_alien_20
+    21300042: Enemy_alien_21
+    21300044: Enemy_alien_22
+    21300046: Enemy_alien_23
+    21300048: Enemy_alien_24
+    21300050: Enemy_alien_dead_0
+    21300052: Enemy_alien_26
+    21300054: Enemy_alien_dead_1
+    21300056: Enemy_alien_dead_2
+    21300058: Enemy_alien_29
+    21300060: Enemy_alien_
+    21300062: Enemy_alien_hit_0
+    21300064: Enemy_alien_dead_3
+    21300066: Enemy_alien_33
+    21300068: Enemy_alien_hit_fly
+    21300070: Enemy_alien_hit_1
+    21300072: Enemy_alien_hit_2
+    21300074: Enemy_alien_37
+    21300076: Enemy_alien_38
+    21300078: Enemy_alien_39
+    21300080: Enemy_alien_40
+    21300082: Enemy_alien_41
+    21300084: Enemy_alien_42
+    21300086: Enemy_alien_43
+    21300088: Enemy_alien_44
+    21300090: Enemy_alien_45
+    21300092: Enemy_alien_46
+    21300094: Enemy_alien_hit_fall
+    21300096: Enemy_alien_48
+    21300098: Enemy_alien_49
+    21300100: Enemy_alien_50
+    21300102: Enemy_alien_51
+    21300104: Enemy_alien_52
+    21300106: Enemy_alien_53
+    21300108: Enemy_alien_54
+    21300110: Enemy_alien_55
+    21300112: Enemy_alien_getup_2
+    21300114: Enemy_alien_getup_1
+    21300116: Enemy_alien_getup_0
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -45,7 +104,7 @@ TextureImporter:
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-  spritePixelsToUnits: 128
+  spritePixelsToUnits: 40
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
@@ -73,7 +132,833 @@ TextureImporter:
     overridden: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Enemy_alien_0
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 1059
+        width: 131
+        height: 72
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy_alien_1
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 1058
+        width: 137
+        height: 73
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy_alien_2
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 1059
+        width: 144
+        height: 75
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy_alien_3
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 1061
+        width: 139
+        height: 74
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy_alien_4
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 1071
+        width: 133
+        height: 72
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy_alien_5
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 1068
+        width: 137
+        height: 71
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy_alien_6
+      rect:
+        serializedVersion: 2
+        x: 947
+        y: 1067
+        width: 144
+        height: 73
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy_alien_7
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 949
+        width: 136
+        height: 72
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy_alien_idle
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 939
+        width: 105
+        height: 87
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy_alien_9
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 942
+        width: 117
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy_alien_10
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 948
+        width: 133
+        height: 82
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy_alien_11
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 938
+        width: 94
+        height: 95
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy_alien_12
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 946
+        width: 161
+        height: 82
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy_alien_13
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 942
+        width: 124
+        height: 87
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy_alien_14
+      rect:
+        serializedVersion: 2
+        x: 1047
+        y: 936
+        width: 129
+        height: 89
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy_alien_15
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 812
+        width: 95
+        height: 85
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy_alien_16
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 817
+        width: 85
+        height: 80
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy_alien_17
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 820
+        width: 73
+        height: 72
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy_alien_18
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 815
+        width: 120
+        height: 80
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy_alien_19
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 808
+        width: 123
+        height: 80
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy_alien_20
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 804
+        width: 78
+        height: 85
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy_alien_21
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 804
+        width: 79
+        height: 95
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy_alien_22
+      rect:
+        serializedVersion: 2
+        x: 946
+        y: 815
+        width: 108
+        height: 88
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy_alien_23
+      rect:
+        serializedVersion: 2
+        x: 1091
+        y: 805
+        width: 91
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy_alien_24
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 684
+        width: 118
+        height: 86
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy_alien_dead_0
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 689
+        width: 97
+        height: 83
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy_alien_26
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 690
+        width: 79
+        height: 81
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy_alien_dead_1
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 696
+        width: 76
+        height: 86
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy_alien_dead_2
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 703
+        width: 139
+        height: 59
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy_alien_29
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 685
+        width: 107
+        height: 89
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy_alien_
+      rect:
+        serializedVersion: 2
+        x: 968
+        y: 682
+        width: 93
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy_alien_hit_0
+      rect:
+        serializedVersion: 2
+        x: 1084
+        y: 682
+        width: 72
+        height: 94
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy_alien_dead_3
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 701
+        width: 123
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy_alien_33
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 553
+        width: 60
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy_alien_hit_fly
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 562
+        width: 94
+        height: 93
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy_alien_hit_1
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 566
+        width: 94
+        height: 87
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy_alien_hit_2
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 570
+        width: 79
+        height: 85
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy_alien_37
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 566
+        width: 136
+        height: 73
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy_alien_38
+      rect:
+        serializedVersion: 2
+        x: 713
+        y: 559
+        width: 119
+        height: 73
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy_alien_39
+      rect:
+        serializedVersion: 2
+        x: 857
+        y: 575
+        width: 123
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy_alien_40
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 571
+        width: 141
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy_alien_41
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 423
+        width: 102
+        height: 122
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy_alien_42
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 429
+        width: 103
+        height: 103
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy_alien_43
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 438
+        width: 140
+        height: 53
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy_alien_44
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 432
+        width: 127
+        height: 60
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy_alien_45
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 434
+        width: 140
+        height: 56
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy_alien_46
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 448
+        width: 154
+        height: 71
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy_alien_hit_fall
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 303
+        width: 141
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy_alien_48
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 312
+        width: 128
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy_alien_49
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 311
+        width: 127
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy_alien_50
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 321
+        width: 131
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy_alien_51
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 306
+        width: 142
+        height: 67
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy_alien_52
+      rect:
+        serializedVersion: 2
+        x: 981
+        y: 320
+        width: 156
+        height: 58
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy_alien_53
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 207
+        width: 106
+        height: 62
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy_alien_54
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 210
+        width: 70
+        height: 69
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy_alien_55
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 210
+        width: 113
+        height: 67
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy_alien_getup_2
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 203
+        width: 94
+        height: 80
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy_alien_getup_1
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 208
+        width: 130
+        height: 53
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy_alien_getup_0
+      rect:
+        serializedVersion: 2
+        x: 758
+        y: 208
+        width: 109
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
     outline: []
     physicsShape: []
   spritePackingTag: 
