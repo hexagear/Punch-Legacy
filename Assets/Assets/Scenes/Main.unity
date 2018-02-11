@@ -401,6 +401,36 @@ Prefab:
       propertyPath: m_UseFullKinematicContacts
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 114166594733193580, guid: f524fee91c0acc6478dce6ef4f603cb3,
+        type: 2}
+      propertyPath: forceX
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 114166594733193580, guid: f524fee91c0acc6478dce6ef4f603cb3,
+        type: 2}
+      propertyPath: forceY
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 95755558308646372, guid: f524fee91c0acc6478dce6ef4f603cb3,
+        type: 2}
+      propertyPath: m_ApplyRootMotion
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 50001859745661514, guid: f524fee91c0acc6478dce6ef4f603cb3,
+        type: 2}
+      propertyPath: m_BodyType
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 61730307486319046, guid: f524fee91c0acc6478dce6ef4f603cb3,
+        type: 2}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 61255356519604048, guid: f524fee91c0acc6478dce6ef4f603cb3,
+        type: 2}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f524fee91c0acc6478dce6ef4f603cb3, type: 2}
   m_IsPrefabParent: 0
@@ -1382,6 +1412,21 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4136193041795476, guid: fe15acedd2cf2e444b2690452d07363d, type: 2}
       propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212300612264379246, guid: fe15acedd2cf2e444b2690452d07363d,
+        type: 2}
+      propertyPath: m_Size.x
+      value: 1.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 212300612264379246, guid: fe15acedd2cf2e444b2690452d07363d,
+        type: 2}
+      propertyPath: m_Size.y
+      value: 2.35
+      objectReference: {fileID: 0}
+    - target: {fileID: 212300612264379246, guid: fe15acedd2cf2e444b2690452d07363d,
+        type: 2}
+      propertyPath: m_WasSpriteAssigned
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
