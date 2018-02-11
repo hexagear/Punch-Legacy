@@ -8,7 +8,7 @@ public class ObjectPooler : MonoBehaviour
     public GameObject pooledObject;
     public GameObject parent;
     public int pooledAmount;
-    private float speed;
+    //private float speed;
     private LevelMover mover;
 
     List<GameObject> objectsList;
