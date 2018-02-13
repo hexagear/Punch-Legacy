@@ -29,9 +29,16 @@ public class PlayerController : MonoBehaviour
             punchArray[i].gameObject.SetActive(false);
         }
         punchArray[0].gameObject.SetActive(true);
+
+        Physics2D.IgnoreLayerCollision(9, 11);
     }
 
     // Update is called once per frame
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        
+    }
+
     void Update()
     {
 

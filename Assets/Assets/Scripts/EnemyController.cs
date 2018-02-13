@@ -36,7 +36,7 @@ public class EnemyController : MonoBehaviour
 
     private void dead()
     {
-        gameObject.layer = 10;
-        Destroy(enemyCollider);
+        gameObject.layer = 11;        
+        //Destroy(enemyCollider);
     }
 }
