@@ -391,45 +391,15 @@ Prefab:
       propertyPath: m_RootOrder
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 50341423448508418, guid: f524fee91c0acc6478dce6ef4f603cb3,
+    - target: {fileID: 114573307590097048, guid: f524fee91c0acc6478dce6ef4f603cb3,
         type: 2}
-      propertyPath: m_BodyType
-      value: 1
+      propertyPath: jumpkick
+      value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 50341423448508418, guid: f524fee91c0acc6478dce6ef4f603cb3,
-        type: 2}
-      propertyPath: m_UseFullKinematicContacts
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 114166594733193580, guid: f524fee91c0acc6478dce6ef4f603cb3,
-        type: 2}
-      propertyPath: forceX
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 114166594733193580, guid: f524fee91c0acc6478dce6ef4f603cb3,
+    - target: {fileID: 114058750495860266, guid: f524fee91c0acc6478dce6ef4f603cb3,
         type: 2}
       propertyPath: forceY
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 95755558308646372, guid: f524fee91c0acc6478dce6ef4f603cb3,
-        type: 2}
-      propertyPath: m_ApplyRootMotion
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 50001859745661514, guid: f524fee91c0acc6478dce6ef4f603cb3,
-        type: 2}
-      propertyPath: m_BodyType
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 61730307486319046, guid: f524fee91c0acc6478dce6ef4f603cb3,
-        type: 2}
-      propertyPath: m_IsTrigger
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 61255356519604048, guid: f524fee91c0acc6478dce6ef4f603cb3,
-        type: 2}
-      propertyPath: m_IsTrigger
-      value: 1
+      value: 100
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f524fee91c0acc6478dce6ef4f603cb3, type: 2}
