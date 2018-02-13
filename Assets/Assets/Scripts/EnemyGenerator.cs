@@ -26,7 +26,7 @@ public class EnemyGenerator : MonoBehaviour
         if (lastSpawn.position.x < lastPlatform.position.x - platformWidth * spawnDistance)
         {
             GameObject enemy = theObjectPool.GetPooledObject();
-            enemy.transform.position = lastPlatform.position;
+            enemy.transform.position = lastPlatform.position + Vector3.back;
             enemy.transform.rotation = lastPlatform.rotation;
             EnemyController enemyController = enemy.GetComponent<EnemyController>();
             enemyController.health = health;
