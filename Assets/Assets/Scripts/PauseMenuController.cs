@@ -5,24 +5,30 @@ using UnityEngine;
 public class PauseMenuController : MonoBehaviour {
 
     public static bool GameIsPaused = false;
+    public GameObject menu;
+
     private ScrollingBackground[] backgrounds;
+    
 
     private void Start()
     {
-        backgrounds = FindObjectsOfType<ScrollingBackground>();
+        backgrounds = FindObjectsOfType<ScrollingBackground>();        
     }
 
     private void Update()
     {
         if (Input.GetKeyDown(KeyCode.Escape))
         {
+            Debug.Log("esc");
             if (GameIsPaused)
             {
                 Resume();
+                menu.gameObject.SetActive(false);
             }
             else
             {
                 Pause();
+                menu.gameObject.SetActive(true);
             }
         }
     }
@@ -41,6 +47,7 @@ public class PauseMenuController : MonoBehaviour {
 
     public void Resume()
     {
+        GameIsPaused = false;
         Time.timeScale = 1f;
         for (int i = 0; i < backgrounds.Length; i++)
         {

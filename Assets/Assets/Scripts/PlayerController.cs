@@ -46,14 +46,14 @@ public class PlayerController : MonoBehaviour
 
         myRigidbody.velocity = new Vector2(moveSpeed, myRigidbody.velocity.y);
 
-        if (Input.GetKeyDown(KeyCode.Space) 
+        if (Input.GetKeyDown(KeyCode.Space)
             | Input.GetMouseButtonDown(1)
             )
         {
             TapLeft();
         }
 
-        if (Input.GetKeyDown(KeyCode.DownArrow) 
+        if (Input.GetKeyDown(KeyCode.DownArrow)
             | Input.GetMouseButtonDown(0)
             )
         {
@@ -69,7 +69,6 @@ public class PlayerController : MonoBehaviour
         myAnimator.SetBool("Airslam", airslam);
     }
 
-
     public void TapRight()
     {
         //Jab
@@ -77,13 +76,13 @@ public class PlayerController : MonoBehaviour
         {
             jab = true;
             leftHand = !leftHand;
-            AttackUse("Jab");            
+            AttackUse("Jab");
         }
         //Airkick
         else
         {
             airkick = true;
-            AttackUse("Airkick");            
+            AttackUse("Airkick");
         }
     }
 
@@ -91,10 +90,10 @@ public class PlayerController : MonoBehaviour
     {
         //Jumpkick
         if (grounded)
-        {            
+        {
             myRigidbody.velocity = new Vector2(myRigidbody.velocity.x, jumpForce);
             jumpkick = true;
-            AttackUse("Jumpkick");            
+            AttackUse("Jumpkick");
         }
         //Airslam
         else
@@ -102,16 +101,30 @@ public class PlayerController : MonoBehaviour
             airslam = true;
             AttackUse("Airslam");
         }
-    }
+    }    
 
     public void AttackUse(string attackName)
     {
-        attackBool = true;
         for (int i = 0; i < punchArray.Length; i++)
         {
             if (punchArray[i].gameObject.name == attackName)
             {
                 punchArray[i].gameObject.SetActive(true);
+            }
+        }
+    }
+
+    public void AttackEndAll()
+    {
+        jab = false;
+        jumpkick = false;
+        airkick = false;
+        airslam = false;
+        for (int i = 0; i < punchArray.Length; i++)
+        {
+            if (punchArray[i].gameObject.name != "Player")
+            {
+                punchArray[i].gameObject.SetActive(false);
             }
         }
     }
@@ -123,31 +136,25 @@ public class PlayerController : MonoBehaviour
             if (punchArray[i].gameObject.name == attackName)
             {
                 punchArray[i].gameObject.SetActive(false);
+                switch (attackName)
+                {
+                    case "Jab":
+                        jab = false;
+                        break;
+                    case "Airkick":
+                        airkick = false;
+                        break;
+                    case "Jumpkick":
+                        jumpkick = false;
+                        break;
+                    case "Airslam":
+                        airslam = false;
+                        break;
+                    //default: jab = false;
+                    //    break;
+                    
+                }
             }
         }
-    }
-
-    public void JabEnd()
-    {
-        jab = false;
-        AttackEnd("Jab");
-    }
-
-    public void JumpkickEnd()
-    {        
-        jumpkick = false;
-        AttackEnd("Jumpkick");       
-    }
-
-    public void AirkickEnd()
-    {
-        airkick = false;
-        AttackEnd("Airkick");        
-    }
-
-    public void AirslamEnd()
-    {
-        airslam = false;
-        AttackEnd("Airslam");
     }
 }

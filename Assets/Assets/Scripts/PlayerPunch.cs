@@ -26,6 +26,7 @@ public class PlayerPunch : MonoBehaviour {
             {
                 enemyRigidbody.freezeRotation = false;
                 enemyRigidbody.angularVelocity=corpsesRotationForce;
+                enemyRigidbody.gameObject.layer = 12;
             }
             
             enemyController.isHit = true;
