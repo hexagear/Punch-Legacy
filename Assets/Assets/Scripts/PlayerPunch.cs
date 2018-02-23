@@ -7,6 +7,7 @@ public class PlayerPunch : MonoBehaviour {
     public int damage;
     public float forceX;
     public float forceY;
+    public float corpsesRotationForce;
 
     public LayerMask layers;
 
@@ -21,6 +22,12 @@ public class PlayerPunch : MonoBehaviour {
             enemyRigidbody = collision.gameObject.GetComponent<Rigidbody2D>();
 
             enemyController.health -= damage;
+            if (enemyController.health<=0)
+            {
+                enemyRigidbody.freezeRotation = false;
+                enemyRigidbody.angularVelocity=corpsesRotationForce;
+            }
+            
             enemyController.isHit = true;
             enemyRigidbody.velocity = new Vector2(forceX, forceY);
             enemyController.gameObject.layer = 11;

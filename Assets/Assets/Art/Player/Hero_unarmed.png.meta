@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 3dfae4d91c5684240a51c06b7395e6f4
-timeCreated: 1519390393
+timeCreated: 1519408048
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -60,8 +60,8 @@ TextureImporter:
     21300106: Hero_unarmed_53
     21300108: Hero_unarmed_54
     21300110: Hero_unarmed_jump_attack_hand
-    21300112: Hero_unarmed_56
-    21300114: Hero_unarmed_57
+    21300112: Hero_unarmed_airslam_0
+    21300114: Hero_unarmed_airslam_1
     21300116: Hero_unarmed_58
     21300118: Hero_unarmed_59
     21300120: Hero_unarmed_60
@@ -942,7 +942,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Hero_unarmed_56
+      name: Hero_unarmed_airslam_0
       rect:
         serializedVersion: 2
         x: 1100
@@ -956,7 +956,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Hero_unarmed_57
+      name: Hero_unarmed_airslam_1
       rect:
         serializedVersion: 2
         x: 1284
