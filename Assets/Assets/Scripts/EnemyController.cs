@@ -16,9 +16,9 @@ public class EnemyController : MonoBehaviour
         enemyRigidbody = GetComponent<Rigidbody2D>();
         enemyCollider = GetComponent<BoxCollider2D>();
 
-        Physics2D.IgnoreLayerCollision(8, 11);
-        Physics2D.IgnoreLayerCollision(10, 11);
-        Physics2D.IgnoreLayerCollision(11, 11);
+        //Physics2D.IgnoreLayerCollision(8, 11);
+        //Physics2D.IgnoreLayerCollision(10, 11);
+        //Physics2D.IgnoreLayerCollision(11, 11);
     }
 
     // Update is called once per frame
@@ -40,7 +40,7 @@ public class EnemyController : MonoBehaviour
 
     private void dead()
     {
-        gameObject.layer = 11;        
+        gameObject.layer = 12;        
         //Destroy(enemyCollider);
     }
 }

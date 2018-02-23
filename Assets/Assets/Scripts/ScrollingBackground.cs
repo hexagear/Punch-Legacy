@@ -8,6 +8,7 @@ public class ScrollingBackground : MonoBehaviour
     public float backgroundSize;
     public float viewZone;
     public float paralaxSpeed;
+    public float unpausedSpeed;
 
     private Transform cameraTransform;
     private Transform[] layers;

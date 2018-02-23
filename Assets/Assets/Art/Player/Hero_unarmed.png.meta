@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 3dfae4d91c5684240a51c06b7395e6f4
-timeCreated: 1518361559
+timeCreated: 1519390393
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -50,13 +50,13 @@ TextureImporter:
     21300086: Hero_unarmed_43
     21300088: Hero_unarmed_jump_attack_leg_1
     21300090: Hero_unarmed_jump_attack_leg_0
-    21300092: Hero_unarmed_46
-    21300094: Hero_unarmed_47
-    21300096: Hero_unarmed_48
+    21300092: ero_unarmed_air_kick_0
+    21300094: ero_unarmed_air_kick_1
+    21300096: ero_unarmed_air_kick_2
     21300098: Hero_unarmed_49
     21300100: Hero_unarmed_50
     21300102: Hero_unarmed_51
-    21300104: Hero_unarmed_52
+    21300104: ero_unarmed_air_kick_3
     21300106: Hero_unarmed_53
     21300108: Hero_unarmed_54
     21300110: Hero_unarmed_jump_attack_hand
@@ -802,7 +802,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Hero_unarmed_46
+      name: ero_unarmed_air_kick_0
       rect:
         serializedVersion: 2
         x: 1849
@@ -816,7 +816,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Hero_unarmed_47
+      name: ero_unarmed_air_kick_1
       rect:
         serializedVersion: 2
         x: 2035
@@ -830,7 +830,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Hero_unarmed_48
+      name: ero_unarmed_air_kick_2
       rect:
         serializedVersion: 2
         x: 2194
@@ -886,7 +886,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Hero_unarmed_52
+      name: ero_unarmed_air_kick_3
       rect:
         serializedVersion: 2
         x: 2489

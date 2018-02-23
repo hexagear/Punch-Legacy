@@ -6,6 +6,7 @@ public class LevelMover : MonoBehaviour {
 
     public List<Rigidbody2D> rigidbodyList;
     public float speed;
+    public float unpausedSpeed;
     public LayerMask physicsLayers;
 
     private Rigidbody2D[] rigidbodyArray;

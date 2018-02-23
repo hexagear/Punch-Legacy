@@ -10,7 +10,7 @@ public class PlayerController : MonoBehaviour
     public LayerMask ground;
 
     private Rigidbody2D myRigidbody;
-    public bool grounded, jab, jumpkick, leftHand;
+    public bool grounded, jab, jumpkick, airkick, leftHand;
     private Collider2D myCollider;
     private Animator myAnimator;
     private BoxCollider2D[] punchArray;
@@ -46,29 +46,36 @@ public class PlayerController : MonoBehaviour
 
         myRigidbody.velocity = new Vector2(moveSpeed, myRigidbody.velocity.y);
 
-        //if (Input.GetKeyDown(KeyCode.Space) | Input.GetMouseButtonDown(1))
-        //{
-        //    JumpkickStart();
-        //}
+        if (Input.GetKeyDown(KeyCode.Space) 
+            | Input.GetMouseButtonDown(1)
+            )
+        {
+            TapLeft();
+        }
 
-        //if (Input.GetMouseButtonDown(0))
-        //{
-        //    JabStart();
-        //}
+        if (Input.GetKeyDown(KeyCode.DownArrow) 
+            | Input.GetMouseButtonDown(0)
+            )
+        {
+            TapRight();
+        }
 
         myAnimator.SetFloat("Speed", myRigidbody.velocity.x);
         myAnimator.SetBool("Grounded", grounded);
         myAnimator.SetFloat("Y speed", myRigidbody.velocity.y);
         myAnimator.SetBool("Jab", jab);
         myAnimator.SetBool("Left hand", leftHand);
+        myAnimator.SetBool("Airkick", airkick);        
     }
 
 
-    public void JabStart()
+    public void TapRight()
     {
+        //Jab
         if (grounded)
         {
             jab = true;
+            leftHand = !leftHand;
             for (int i = 0; i < punchArray.Length; i++)
             {
                 if (punchArray[i].gameObject.name == "Jab")
@@ -77,12 +84,24 @@ public class PlayerController : MonoBehaviour
                 }
             }
         }
+        //Airkick
+        else
+        {
+            airkick = true;
+            for (int i = 0; i < punchArray.Length; i++)
+            {
+                if (punchArray[i].gameObject.name == "Airkick")
+                {
+                    punchArray[i].gameObject.SetActive(true);
+                }
+            }
+        }
     }
 
-    public void JumpkickStart()
+    public void TapLeft()
     {
         if (grounded)
-        {
+        {            
             myRigidbody.velocity = new Vector2(myRigidbody.velocity.x, jumpForce);
             jumpkick = true;
             for (int i = 0; i < punchArray.Length; i++)
@@ -98,7 +117,7 @@ public class PlayerController : MonoBehaviour
     public void JabEnd()
     {
         jab = false;
-        leftHand = !leftHand;
+        
         for (int i = 0; i < punchArray.Length; i++)
         {
             if (punchArray[i].gameObject.name == "Jab")
@@ -109,11 +128,23 @@ public class PlayerController : MonoBehaviour
     }
 
     public void JumpkickEnd()
-    {
+    {        
         jumpkick = false;
         for (int i = 0; i < punchArray.Length; i++)
         {
             if (punchArray[i].gameObject.name == "Jumpkick")
+            {
+                punchArray[i].gameObject.SetActive(false);
+            }
+        }
+    }
+
+    public void AirkickEnd()
+    {
+        airkick = false;
+        for (int i = 0; i < punchArray.Length; i++)
+        {
+            if (punchArray[i].gameObject.name == "Airkick")
             {
                 punchArray[i].gameObject.SetActive(false);
             }

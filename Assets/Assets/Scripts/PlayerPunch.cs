@@ -23,7 +23,7 @@ public class PlayerPunch : MonoBehaviour {
             enemyController.health -= damage;
             enemyController.isHit = true;
             enemyRigidbody.velocity = new Vector2(forceX, forceY);
-            enemyController.gameObject.layer = 0;
+            enemyController.gameObject.layer = 11;
             Debug.Log("HIT");
         }
     }
