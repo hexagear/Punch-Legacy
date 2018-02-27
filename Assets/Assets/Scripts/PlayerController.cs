@@ -8,9 +8,9 @@ public class PlayerController : MonoBehaviour
     public float moveSpeed;
     public float jumpForce;
     public LayerMask ground;
+    public bool grounded, jab, jumpkick, airkick, airslam, leftHand;
 
     private Rigidbody2D myRigidbody;
-    public bool grounded, jab, jumpkick, airkick, airslam, leftHand;
     private Collider2D myCollider;
     private Animator myAnimator;
     private BoxCollider2D[] punchArray;
@@ -101,7 +101,7 @@ public class PlayerController : MonoBehaviour
             airslam = true;
             AttackUse("Airslam");
         }
-    }    
+    }
 
     public void AttackUse(string attackName)
     {
@@ -150,9 +150,6 @@ public class PlayerController : MonoBehaviour
                     case "Airslam":
                         airslam = false;
                         break;
-                    //default: jab = false;
-                    //    break;
-                    
                 }
             }
         }

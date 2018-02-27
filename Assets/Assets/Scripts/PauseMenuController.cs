@@ -20,20 +20,25 @@ public class PauseMenuController : MonoBehaviour {
         if (Input.GetKeyDown(KeyCode.Escape))
         {
             Debug.Log("esc");
-            if (GameIsPaused)
-            {
-                Resume();
-                menu.gameObject.SetActive(false);
-            }
-            else
-            {
-                Pause();
-                menu.gameObject.SetActive(true);
-            }
+            PausePressed();
         }
     }
 
-    public void Pause()
+    public void PausePressed()
+    {
+        if (GameIsPaused)
+        {
+            Resume();
+            menu.gameObject.SetActive(false);
+        }
+        else
+        {
+            Pause();
+            menu.gameObject.SetActive(true);
+        }
+    }
+
+    private void Pause()
     {
         GameIsPaused = true;
         Time.timeScale = 0f;
@@ -45,7 +50,7 @@ public class PauseMenuController : MonoBehaviour {
         
     }
 
-    public void Resume()
+    private void Resume()
     {
         GameIsPaused = false;
         Time.timeScale = 1f;

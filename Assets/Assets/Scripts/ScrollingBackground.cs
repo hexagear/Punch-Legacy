@@ -13,13 +13,11 @@ public class ScrollingBackground : MonoBehaviour
     private Transform cameraTransform;
     private Transform[] layers;
     private int leftIndex;
-    private int rightIndex;
-    //private float lastCameraX;
+    private int rightIndex;   
 
     public void Start()
     {
-        cameraTransform = Camera.main.transform;
-        //lastCameraX = cameraTransform.position.x;
+        cameraTransform = Camera.main.transform;        
         layers = new Transform[transform.childCount];
         for (int i = 0; i < transform.childCount; i++)
         {
@@ -33,9 +31,7 @@ public class ScrollingBackground : MonoBehaviour
     private void Update()
     {
         //float deltaX = cameraTransform.position.x - lastCameraX;
-        transform.position += Vector3.right * (paralaxSpeed);
-
-        //lastCameraX = cameraTransform.position.x;
+        transform.position += Vector3.right * (paralaxSpeed);        
 
         if (cameraTransform.position.x > (layers[leftIndex].transform.position.x - viewZone))
         {
